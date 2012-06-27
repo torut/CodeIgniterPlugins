@@ -12,7 +12,7 @@ class Auth
 
 	public function __construct()
 	{
-        $this->_ci = get_instance();
+		$this->_ci = get_instance();
 		$this->_authKey = 'SECRET_KEY';
 	}
 
